@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		141FA3031BA6F7F3001774A4 /* Airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141FA3021BA6F7F3001774A4 /* Airport.swift */; settings = {ASSET_TAGS = (); }; };
 		14957E571BA6F53C00AC0EC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14957E561BA6F53C00AC0EC0 /* AppDelegate.swift */; };
 		14957E591BA6F53C00AC0EC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14957E581BA6F53C00AC0EC0 /* ViewController.swift */; };
 		14957E5C1BA6F53C00AC0EC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14957E5A1BA6F53C00AC0EC0 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		141FA3021BA6F7F3001774A4 /* Airport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Airport.swift; sourceTree = "<group>"; };
 		14957E531BA6F53C00AC0EC0 /* Airports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Airports.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14957E561BA6F53C00AC0EC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14957E581BA6F53C00AC0EC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				14957E621BA6F53C00AC0EC0 /* LaunchScreen.storyboard */,
 				14957E651BA6F53C00AC0EC0 /* Info.plist */,
 				14957E5D1BA6F53C00AC0EC0 /* Airports.xcdatamodeld */,
+				141FA3021BA6F7F3001774A4 /* Airport.swift */,
 			);
 			path = Airports;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14957E591BA6F53C00AC0EC0 /* ViewController.swift in Sources */,
+				141FA3031BA6F7F3001774A4 /* Airport.swift in Sources */,
 				14957E5F1BA6F53C00AC0EC0 /* Airports.xcdatamodeld in Sources */,
 				14957E571BA6F53C00AC0EC0 /* AppDelegate.swift in Sources */,
 			);
@@ -485,6 +489,7 @@
 				14957E801BA6F53C00AC0EC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14957E811BA6F53C00AC0EC0 /* Build configuration list for PBXNativeTarget "AirportsTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +498,7 @@
 				14957E831BA6F53C00AC0EC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14957E841BA6F53C00AC0EC0 /* Build configuration list for PBXNativeTarget "AirportsUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +507,7 @@
 				14957E861BA6F53C00AC0EC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
