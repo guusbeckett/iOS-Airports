@@ -1,6 +1,6 @@
 /*
 *
-* Airport.swift
+* AirportTableViewCell.swift
 * Airports
 * Created by Guus Beckett on 14/09/15.
 *
@@ -18,24 +18,16 @@
 * See the Licence for the specific language governing permissions and limitations under the Licence.
 */
 
-import MapKit
+import UIKit
 
-class Airport {
+class AirportTableViewCell: UITableViewCell {
     
-    var icao : String? //Primary key
-    var name : String?
-    var iso_country : String?
-    var municipality : String?
-    var longitude : Double?
-    var latitude : Double?
-    var elevation: Double?
-    private var location : CLLocationCoordinate2D?
+    @IBOutlet var airportName : UILabel!
+    @IBOutlet var municipality: UILabel!
     
-    func getLocation() -> CLLocationCoordinate2D{
-        if((location == nil)){
-            self.location = CLLocationCoordinate2D(latitude: self.latitude!,longitude: self.longitude!)
-        }
-        return location!
+    
+    override func setSelected(selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+        
     }
-    
 }

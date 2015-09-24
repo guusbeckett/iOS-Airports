@@ -9,13 +9,22 @@
 /* Begin PBXBuildFile section */
 		141FA3031BA6F7F3001774A4 /* Airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141FA3021BA6F7F3001774A4 /* Airport.swift */; settings = {ASSET_TAGS = (); }; };
 		14957E571BA6F53C00AC0EC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14957E561BA6F53C00AC0EC0 /* AppDelegate.swift */; };
-		14957E591BA6F53C00AC0EC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14957E581BA6F53C00AC0EC0 /* ViewController.swift */; };
 		14957E5C1BA6F53C00AC0EC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14957E5A1BA6F53C00AC0EC0 /* Main.storyboard */; };
 		14957E5F1BA6F53C00AC0EC0 /* Airports.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14957E5D1BA6F53C00AC0EC0 /* Airports.xcdatamodeld */; };
 		14957E611BA6F53C00AC0EC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14957E601BA6F53C00AC0EC0 /* Assets.xcassets */; };
 		14957E641BA6F53C00AC0EC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14957E621BA6F53C00AC0EC0 /* LaunchScreen.storyboard */; };
 		14957E6F1BA6F53C00AC0EC0 /* AirportsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14957E6E1BA6F53C00AC0EC0 /* AirportsTests.swift */; };
 		14957E7A1BA6F53C00AC0EC0 /* AirportsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14957E791BA6F53C00AC0EC0 /* AirportsUITests.swift */; };
+		14B2E08C1BA706DA00378792 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B2E08B1BA706DA00378792 /* TableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		14B2E08E1BA7075F00378792 /* AirportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B2E08D1BA7075F00378792 /* AirportTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		14B2E0901BA708F300378792 /* AirportDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B2E08F1BA708F300378792 /* AirportDetailedViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		14B2E0921BA754E300378792 /* DatabaseMiddleman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B2E0911BA754E300378792 /* DatabaseMiddleman.swift */; settings = {ASSET_TAGS = (); }; };
+		14B2E0941BA7555D00378792 /* airports.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 14B2E0931BA7555D00378792 /* airports.sqlite */; settings = {ASSET_TAGS = (); }; };
+		14B2E0951BA7555D00378792 /* airports.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 14B2E0931BA7555D00378792 /* airports.sqlite */; settings = {ASSET_TAGS = (); }; };
+		14B2E0961BA7555D00378792 /* airports.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 14B2E0931BA7555D00378792 /* airports.sqlite */; settings = {ASSET_TAGS = (); }; };
+		14B2E09E1BA7770A00378792 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B2E09D1BA7770A00378792 /* libsqlite3.0.tbd */; };
+		14B2E0A01BA7771000378792 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B2E09F1BA7771000378792 /* MapKit.framework */; };
+		14B2E0A41BA777D600378792 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B2E0A31BA777D600378792 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +48,6 @@
 		141FA3021BA6F7F3001774A4 /* Airport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Airport.swift; sourceTree = "<group>"; };
 		14957E531BA6F53C00AC0EC0 /* Airports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Airports.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14957E561BA6F53C00AC0EC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		14957E581BA6F53C00AC0EC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		14957E5B1BA6F53C00AC0EC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14957E5E1BA6F53C00AC0EC0 /* Airports.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Airports.xcdatamodel; sourceTree = "<group>"; };
 		14957E601BA6F53C00AC0EC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +59,17 @@
 		14957E751BA6F53C00AC0EC0 /* AirportsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirportsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14957E791BA6F53C00AC0EC0 /* AirportsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportsUITests.swift; sourceTree = "<group>"; };
 		14957E7B1BA6F53C00AC0EC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14B2E08B1BA706DA00378792 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		14B2E08D1BA7075F00378792 /* AirportTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportTableViewCell.swift; sourceTree = "<group>"; };
+		14B2E08F1BA708F300378792 /* AirportDetailedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportDetailedViewController.swift; sourceTree = "<group>"; };
+		14B2E0911BA754E300378792 /* DatabaseMiddleman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseMiddleman.swift; sourceTree = "<group>"; };
+		14B2E0931BA7555D00378792 /* airports.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = airports.sqlite; sourceTree = "<group>"; };
+		14B2E09B1BA7760900378792 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Main.strings; sourceTree = "<group>"; };
+		14B2E09C1BA7760900378792 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		14B2E09D1BA7770A00378792 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		14B2E09F1BA7771000378792 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		14B2E0A21BA7776900378792 /* Airports_Bridging_header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Airports_Bridging_header.h; sourceTree = "<group>"; };
+		14B2E0A31BA777D600378792 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14B2E0A41BA777D600378792 /* libsqlite3.tbd in Frameworks */,
+				14B2E0A01BA7771000378792 /* MapKit.framework in Frameworks */,
+				14B2E09E1BA7770A00378792 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +103,9 @@
 		14957E4A1BA6F53C00AC0EC0 = {
 			isa = PBXGroup;
 			children = (
+				14B2E09F1BA7771000378792 /* MapKit.framework */,
+				14B2E0A31BA777D600378792 /* libsqlite3.tbd */,
+				14B2E09D1BA7770A00378792 /* libsqlite3.0.tbd */,
 				14957E551BA6F53C00AC0EC0 /* Airports */,
 				14957E6D1BA6F53C00AC0EC0 /* AirportsTests */,
 				14957E781BA6F53C00AC0EC0 /* AirportsUITests */,
@@ -102,13 +127,18 @@
 			isa = PBXGroup;
 			children = (
 				14957E561BA6F53C00AC0EC0 /* AppDelegate.swift */,
-				14957E581BA6F53C00AC0EC0 /* ViewController.swift */,
 				14957E5A1BA6F53C00AC0EC0 /* Main.storyboard */,
+				14B2E0931BA7555D00378792 /* airports.sqlite */,
 				14957E601BA6F53C00AC0EC0 /* Assets.xcassets */,
 				14957E621BA6F53C00AC0EC0 /* LaunchScreen.storyboard */,
 				14957E651BA6F53C00AC0EC0 /* Info.plist */,
 				14957E5D1BA6F53C00AC0EC0 /* Airports.xcdatamodeld */,
 				141FA3021BA6F7F3001774A4 /* Airport.swift */,
+				14B2E08B1BA706DA00378792 /* TableViewController.swift */,
+				14B2E08D1BA7075F00378792 /* AirportTableViewCell.swift */,
+				14B2E08F1BA708F300378792 /* AirportDetailedViewController.swift */,
+				14B2E0911BA754E300378792 /* DatabaseMiddleman.swift */,
+				14B2E0A21BA7776900378792 /* Airports_Bridging_header.h */,
 			);
 			path = Airports;
 			sourceTree = "<group>";
@@ -198,6 +228,7 @@
 				TargetAttributes = {
 					14957E521BA6F53C00AC0EC0 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = ZP2LFA84SP;
 					};
 					14957E691BA6F53C00AC0EC0 = {
 						CreatedOnToolsVersion = 7.0;
@@ -237,6 +268,7 @@
 				14957E641BA6F53C00AC0EC0 /* LaunchScreen.storyboard in Resources */,
 				14957E611BA6F53C00AC0EC0 /* Assets.xcassets in Resources */,
 				14957E5C1BA6F53C00AC0EC0 /* Main.storyboard in Resources */,
+				14B2E0941BA7555D00378792 /* airports.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14B2E0951BA7555D00378792 /* airports.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14B2E0961BA7555D00378792 /* airports.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +295,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14957E591BA6F53C00AC0EC0 /* ViewController.swift in Sources */,
 				141FA3031BA6F7F3001774A4 /* Airport.swift in Sources */,
 				14957E5F1BA6F53C00AC0EC0 /* Airports.xcdatamodeld in Sources */,
+				14B2E0901BA708F300378792 /* AirportDetailedViewController.swift in Sources */,
+				14B2E0921BA754E300378792 /* DatabaseMiddleman.swift in Sources */,
+				14B2E08C1BA706DA00378792 /* TableViewController.swift in Sources */,
 				14957E571BA6F53C00AC0EC0 /* AppDelegate.swift in Sources */,
+				14B2E08E1BA7075F00378792 /* AirportTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +341,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				14957E5B1BA6F53C00AC0EC0 /* Base */,
+				14B2E09B1BA7760900378792 /* nl */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -312,6 +350,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				14957E631BA6F53C00AC0EC0 /* Base */,
+				14B2E09C1BA7760900378792 /* nl */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -404,10 +443,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Airports/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nl.reupload.Airports;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = Airports/Airports_Bridging_header.h;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -415,10 +459,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Airports/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nl.reupload.Airports;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = Airports/Airports_Bridging_header.h;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

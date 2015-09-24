@@ -1,0 +1,18 @@
+
+/* Class = "UINavigationItem"; title = "Airports list"; ObjectID = "6nm-af-Wxo"; */
+"6nm-af-Wxo.title" = "Lijst van vliegvelden";
+
+/* Class = "UINavigationController"; title = "Airports"; ObjectID = "Ph5-H4-Ctr"; */
+"Ph5-H4-Ctr.title" = "Vliegvelden";
+
+/* Class = "UITableViewController"; title = "AirportsList"; ObjectID = "ao2-Dt-LEJ"; */
+"ao2-Dt-LEJ.title" = "Vilegveldenlijst";
+
+/* Class = "UILabel"; text = "Municipality name"; ObjectID = "nSn-vC-wnA"; */
+"nSn-vC-wnA.text" = "Gemeentenaam";
+
+/* Class = "UILabel"; text = "Airportname"; ObjectID = "q5b-hs-xvJ"; */
+"q5b-hs-xvJ.text" = "Vliegveldnaam";
+
+/* Class = "UILabel"; text = "Airport name"; ObjectID = "ygC-cv-W0X"; */
+"ygC-cv-W0X.text" = "Naam van het vliegveld";
