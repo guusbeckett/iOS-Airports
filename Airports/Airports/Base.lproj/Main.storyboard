@@ -117,7 +117,7 @@
                                     <action selector="toggleMapType:" destination="cYb-21-6Md" eventType="touchUpInside" id="Th6-mS-0kK"/>
                                 </connections>
                             </button>
-                            <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="5" minValue="1" maxValue="50" translatesAutoresizingMaskIntoConstraints="NO" id="Axj-TP-qEG">
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="5" minValue="1" maxValue="50" translatesAutoresizingMaskIntoConstraints="NO" id="Axj-TP-qEG">
                                 <rect key="frame" x="144" y="96" width="118" height="31"/>
                                 <animations/>
                                 <connections>
@@ -135,7 +135,6 @@
                             <constraint firstItem="cAM-lX-knf" firstAttribute="leading" secondItem="LkJ-n6-eUc" secondAttribute="leadingMargin" constant="10" id="JAd-iC-dD5"/>
                             <constraint firstAttribute="trailingMargin" secondItem="cAM-lX-knf" secondAttribute="trailing" constant="10" id="Mba-fN-ZK6"/>
                             <constraint firstItem="ygC-cv-W0X" firstAttribute="top" secondItem="LE2-zO-TQQ" secondAttribute="bottom" constant="8" symbolic="YES" id="bLB-xY-ty6"/>
-                            <constraint firstItem="cAM-lX-knf" firstAttribute="top" secondItem="Axj-TP-qEG" secondAttribute="bottom" constant="8" id="hY9-79-z9E"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ygC-cv-W0X" secondAttribute="trailing" constant="10" id="qWX-xd-2d4"/>
                             <constraint firstItem="eU1-3G-IMA" firstAttribute="leading" secondItem="LkJ-n6-eUc" secondAttribute="leadingMargin" id="vRS-ce-Cag"/>
                         </constraints>
