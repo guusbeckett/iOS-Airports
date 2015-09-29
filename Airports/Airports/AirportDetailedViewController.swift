@@ -24,6 +24,7 @@ import MapKit
 class AirportDetailedViewController: UIViewController{
     
     @IBOutlet var airportName : UILabel!
+    @IBOutlet weak var distanceLabel: UILabel!
     @IBOutlet weak var airportMap: MKMapView!
     @IBOutlet weak var speedSlider: UISlider!
     var airport : Airport?
@@ -89,6 +90,13 @@ class AirportDetailedViewController: UIViewController{
         airportMap.addAnnotation(airportPinAmsterdam)
         
         airportMap.addAnnotation(aeroplaneAnnotation)
+        
+        //Calculate distance between the two airports
+        
+        let distanceLocation = CLLocation(latitude: (location?.latitude)!, longitude: (location?.longitude)!)
+        let distanceLocationAmsterdam = CLLocation(latitude: locationAmsterdam.latitude, longitude: locationAmsterdam.longitude)
+        let distance = distanceLocation.distanceFromLocation(distanceLocationAmsterdam)
+        distanceLabel.text = String(format: "%.2fkm", distance / 1000)
         
         // Animation function
         
